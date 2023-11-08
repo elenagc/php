@@ -1,7 +1,7 @@
 # php
 Introducción a php
 1. Etiqueta <?php   ?>
-2. HTML usa PHP y viceversa <?php print "<h1> esto es un encabezado generado con etiquetas HTML en un script PHP </h1>"
+2. HTML usa PHP y viceversa <?php print <p></p>"
 3. Comentario // Comentario de una línea  /* comentario de varias líneas  */
 4. Imprimir por pantalla print "texto a mostrar"; o echo "texto a mostrar";
 5. Variables. Registros donde guardamos datos. Declaración de variables $variable; Asignación de datos en variables $variable=5;
