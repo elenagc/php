@@ -60,4 +60,20 @@ Resultado:
 * * * *
 * * * * *
 */
+
+//RECORRER UN ARRAY
+//FOREACH para recorrer un array
+print "FOREACH para recorrer un array<br>";
+$animalesFantasticos = ['fénix', 'dragón', 'grifo', 'pegaso'];
+foreach ($animalesFantasticos as $animal) {
+    print $animal . ' ';
+} 
+
+print "<br>FOR para recorrer un array<br>";
+//FOR PARA RECORRER UN ARRAY
+//$length = count($animalesFantasticos);
+for ($i = 0; $i < sizeof($animalesFantasticos); $i++) {
+    print $animalesFantasticos[$i] . "<br>";
+}
+
 ?>
