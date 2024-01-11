@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cambiar Color de Fondo</title>
+  <style>
+    body {
+      transition: background-color 0.5s ease;
+    }
+  </style>
+</head>
+<body>
+
+<button id="cambiarColor">Cambiar Color de Fondo</button>
+
+<script>
+  // Obtener referencia al botón y al cuerpo de la página
+  var botonCambiarColor = document.getElementById('cambiarColor');
+  var body = document.body;
+
+  // Agregar un evento de clic al botón
+  botonCambiarColor.addEventListener('click', function() {
+    // Generar un color aleatorio en formato hexadecimal
+    var nuevoColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+    
+    // Cambiar el color de fondo del cuerpo de la página
+    body.style.backgroundColor = nuevoColor;
+  });
+</script>
+
+</body>
+</html>

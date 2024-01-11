@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo de JavaScript</title>
+</head>
+<body>
+
+<!-- Un elemento en el que se mostrará el mensaje -->
+<div id="saludo-container"></div>
+
+<script>
+  // Obtener referencia al contenedor del saludo
+  alert("Abrir ventana de alerta");
+  var saludoContainer = document.getElementById('saludo-container');
+
+  // Crear un mensaje de saludo
+  var mensajeSaludo = '¡Hola, mundo desde JavaScript!';
+
+  // Agregar el mensaje al contenedor
+  saludoContainer.innerHTML = mensajeSaludo;
+</script>
+
+</body>
+</html>
